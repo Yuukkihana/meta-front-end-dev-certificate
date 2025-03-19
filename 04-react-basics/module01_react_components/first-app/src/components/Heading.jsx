@@ -1,7 +1,8 @@
-function Heading(){
-    let title = "This is some heading text"
+function Heading(props){
+  console.log(props)
+    let title = "Hello there"
     return(
-      <h1>{title}</h1>
+      <h1>{title}, {props.name}, {props.color}</h1>
     )
   }
 
