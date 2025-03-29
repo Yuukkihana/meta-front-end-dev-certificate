@@ -36,7 +36,7 @@ function App() {
  
   function resetResult(e) { 
   	e.preventDefault(); 
-    setResult(0); 
+    setResult(0); //setResult((prevVal) => prevVal * 0);
   }; 
  
   return ( 
